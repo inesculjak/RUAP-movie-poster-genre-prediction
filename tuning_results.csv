@@ -1,0 +1,6 @@
+model,cv_f1_macro,best_params
+Logistic Regression (tuned),0.3679191904160762,"{'estimator__C': 0.01, 'estimator__penalty': 'l2'}"
+SVM (tuned),0.3285985650184123,"{'estimator__C': 0.1, 'estimator__gamma': 'auto'}"
+MLP (tuned),0.25972643012126523,"{'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}"
+XGBoost (tuned),0.23538254329121558,"{'estimator__max_depth': 3, 'estimator__n_estimators': 100}"
+Random Forest (tuned),0.1265703366453751,"{'estimator__max_depth': 10, 'estimator__n_estimators': 100}"
