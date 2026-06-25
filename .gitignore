@@ -1,0 +1,8 @@
+posters/
+.ipynb_aml_checkpoints/
+*.amltmp
+.amlignore
+.amlignore.amltmp
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
