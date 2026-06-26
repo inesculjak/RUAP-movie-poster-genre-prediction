@@ -1,0 +1,15 @@
+name: genre-prediction-env
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - numpy<2
+    - torch==2.2.0
+    - torchvision==0.17.0
+    - scikit-learn
+    - joblib
+    - pillow
+    - azureml-inference-server-http
